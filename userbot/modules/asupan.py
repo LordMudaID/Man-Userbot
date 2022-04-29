@@ -64,7 +64,7 @@ async def _(event):
         desahcowo = [
             desah
             async for desah in event.client.iter_messages(
-                "@desahancowokkkk", filter=InputMessagesFilterVoice
+                "@desahancowobadhuman", filter=InputMessagesFilterVoice
             )
         ]
         await event.client.send_file(
